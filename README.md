@@ -1,24 +1,15 @@
-# hello-world
+# terraform-gcp-demo
 
-## Project setup
-```
-npm install
-```
+This repo contains a quick demonstrator for deploying a Vue app to GCP using Terraform. The method of deployment is incomplete (i.e. no load balancer, custom DNS, etc.) but the goal is to introduce terraform as a tool and show what it can do.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## The agenda
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Create a Vue app to deploy
+- Set up a GCP project (including service account for terraform to use)
+- Deploy to Cloud Storage
+- Introduce some monitoring resources
+- Create a second environment
+- Teardown
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Next steps
+Follow through the steps in `script.md` to complete the exercise.
