@@ -21,3 +21,11 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Terraform and creds
+.terraform*
+terraform.tfstate.d*
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+creds*.json
