@@ -6,6 +6,7 @@ You will need:
 - gcloud cli tools (379.0.0)
 - terraform (v1.1.9)
 - gcloud configured with an account for which you have admin
+- a billing account with GCP (billing account ID to hand)
 
 # Create an app to deploy
 
